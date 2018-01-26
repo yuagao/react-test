@@ -1,5 +1,4 @@
-/* @import url('https://js.arcgis.com/4.6/esri/css/main.css'); */
-@import url('https://js.arcgis.com/3.23/esri/css/esri.css');
+@import url('https://js.arcgis.com/4.6/esri/css/main.css');
 .App {
   text-align: center;
 }
@@ -31,7 +30,15 @@
 
 .map-view{
   width: 80%;
-  height: 400px;
+  height: 600px;
   border: 1px solid red;
   margin: 0 auto;
+}
+
+.show{
+  display: block;
+}
+
+.hidden{
+  display: none;
 }
